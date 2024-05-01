@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.rhythm191.emmet</string>
+	<string>com.rhythm191.emmet-lr</string>
 	<key>category</key>
-	<string>Tools</string>
+	<string>Code</string>
 	<key>connections</key>
 	<dict>
 		<key>696DB7AD-03F0-44F7-8F9A-C275B9D7CA1F</key>
@@ -23,7 +23,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>rhythm191</string>
+	<string>rhythm191 + lr</string>
 	<key>description</key>
 	<string>Emmet executor</string>
 	<key>disabled</key>
@@ -48,7 +48,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>emmet</string>
+				<string>emmet||.e||y</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -60,13 +60,17 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node index.js "$1"</string>
+				<string>#./node_modules/.bin/run-node index.js "$1"
+
+node index.js "$1"
+
+</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string></string>
+				<string>emmet||.e||y</string>
 				<key>title</key>
 				<string>emmet command</string>
 				<key>type</key>
@@ -88,6 +92,8 @@
 				<false/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
 				<key>transient</key>
 				<false/>
 			</dict>
@@ -106,19 +112,21 @@
 		<key>65687D5A-E63E-4328-815D-1A07FE09D360</key>
 		<dict>
 			<key>xpos</key>
-			<integer>455</integer>
+			<real>455</real>
 			<key>ypos</key>
-			<integer>175</integer>
+			<real>175</real>
 		</dict>
 		<key>696DB7AD-03F0-44F7-8F9A-C275B9D7CA1F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>305</integer>
+			<real>305</real>
 			<key>ypos</key>
-			<integer>175</integer>
+			<real>175</real>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/rhythm191/alfred-emmet#readme</string>
 </dict>
 </plist>
