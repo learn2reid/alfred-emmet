@@ -19,6 +19,6 @@
   "homepage": "https://github.com/rhythm191/alfred-emmet#readme",
   "dependencies": {
     "alfy": "^0.9.1",
-    "emmet": "^2.0.0-rc.10"
+    "emmet": "^2.4.7"
   }
 }
